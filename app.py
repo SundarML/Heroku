@@ -85,7 +85,7 @@ with features:
     sel_cat, sel_cost = st.beta_columns(2)
     total_value = sel_cost.text_input('Enter the purchase value :')
     try:
-        total_value = int(total_value)
+        total_value = float(total_value)
     except :
         total_value = 100.0
     cat_items = ['food', 'cosmt', 'stanr']
