@@ -87,7 +87,7 @@ with features:
     try:
         total_value = int(total_value)
     except :
-        total_value = 100
+        total_value = 100.0
     cat_items = ['food', 'cosmt', 'stanr']
     PI, PW, products_selected = main_method(total_value, df, cat_items, main)
     st.write(PI, PW, products_selected)
