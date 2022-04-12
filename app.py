@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 from ortools.algorithms import pywrapknapsack_solver
 import random
+import ortools
+
+ver = ortools.__version__
 #https://www.youtube.com/watch?v=CSv2TBA9_2E
 #https://www.youtube.com/watch?v=B0MUXtmSpiA       - deployment
 
@@ -15,7 +18,8 @@ def get_data(filename):
     return df_raw
 
 with header:
-    st.title("Bundle Offer Creation App....")
+    st.title("Bundle Offer Creation App....",)
+
 
 
 with dataset:
@@ -85,10 +89,11 @@ with features:
     sel_cat, sel_cost = st.beta_columns(2)
     total_value = sel_cost.text_input('Enter the purchase value :')
     try:
-        total_value = float(total_value)
+        total_value = int(total_value)
     except :
-        total_value = 100.0
+        total_value = 100
     cat_items = ['food', 'cosmt', 'stanr']
     PI, PW, products_selected = main_method(total_value, df, cat_items, main)
     st.write(PI, PW, products_selected)
+    st.write(ver)
 
