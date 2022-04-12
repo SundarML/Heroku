@@ -1,4 +1,4 @@
 streamlit
 pandas
-ortools
+ortools == 9.1.9490
 
