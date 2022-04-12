@@ -18,7 +18,7 @@ def get_data(filename):
     return df_raw
 
 with header:
-    st.title("Bundle Offer Creation App....",)
+    st.title("Bundle Offer Creation App New....")
     st.write(ver)
 
 
