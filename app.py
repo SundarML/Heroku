@@ -19,6 +19,7 @@ def get_data(filename):
 
 with header:
     st.title("Bundle Offer Creation App....",)
+    st.write(ver)
 
 
 
@@ -95,5 +96,5 @@ with features:
     cat_items = ['food', 'cosmt', 'stanr']
     PI, PW, products_selected = main_method(total_value, df, cat_items, main)
     st.write(PI, PW, products_selected)
-    st.write(ver)
+    # st.write(ver)
 
