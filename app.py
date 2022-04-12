@@ -50,7 +50,13 @@ with dataset:
         products = Products
         
         capacity = [cap] #total cost
-        solver.Init(values, weights, capacity)
+        try:
+
+        	solver.Init(values, weights, capacity)
+        except:
+        	values_int = [int(round(i)) for i in values]
+        	solver.Init(values_int, weights, capacity)
+
         computed_value = solver.Solve()
         packed_items = []
         packed_weights = []
@@ -78,6 +84,7 @@ with dataset:
         products selected - product identified by index ie,. PI"""
         df = df[df['category'].isin(cat_items)]
         profit_Margin = list(df.Average_Profit_per_unit.values)
+        # profit_Margin = [int(round(i)) for i in profit_Margin]
         cost_Product = list(df.Cost_per_unit.values)
         Products = list(df.Products.values)
         
