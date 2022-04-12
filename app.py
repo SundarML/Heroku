@@ -4,7 +4,7 @@ from ortools.algorithms import pywrapknapsack_solver
 import random
 import ortools
 
-ver = ortools.__version__
+# ver = ortools.__version__
 #https://www.youtube.com/watch?v=CSv2TBA9_2E
 #https://www.youtube.com/watch?v=B0MUXtmSpiA       - deployment
 
@@ -19,7 +19,7 @@ def get_data(filename):
 
 with header:
     st.title("Bundle Offer Creation App New....")
-    st.write(ver)
+    # st.write(ver)
 
 
 
