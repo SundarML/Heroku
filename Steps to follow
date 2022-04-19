@@ -25,4 +25,4 @@ enableCORS = false\n\
    git add .
    git commit -m "Some message"
    git push heroku master
-8. the end
+8. the begining
