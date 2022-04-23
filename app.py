@@ -88,9 +88,9 @@ with features:
     sel_cat, sel_cost = st.beta_columns(2)
     total_value = sel_cost.text_input('Enter the purchase value :')
     # category_items = []
-    selected_cat = st.multiselect('select category', cat)
+    selected_cat = st.multiselect('select the category of products', cat)
     # category_items.append(selected_cat)
-    st.write('The categories selected are', selected_cat, type(selected_cat))
+    # st.write('The categories selected are', selected_cat, type(selected_cat))
     try:
         total_value = int(total_value)
     except :
@@ -102,6 +102,7 @@ with features:
     
     PI, PW, products_selected = main_method(total_value, df, opti_column , Cost_per_unit, Products, cat_items, main)
     st.write(PI, PW, products_selected)
+    st.write('The Products Under This Bundle Offer', products_selected)
 
 # cat_items = ['grocery', 'snacks', ]
 # opti_column = 'Profit_Margin'
