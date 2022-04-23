@@ -101,7 +101,7 @@ with features:
     Products = 'Product'
     
     PI, PW, products_selected = main_method(total_value, df, opti_column , Cost_per_unit, Products, cat_items, main)
-    st.write(PI, PW, products_selected)
+    # st.write(PI, PW, products_selected)
     st.write('The Products Under This Bundle Offer', products_selected)
 
 # cat_items = ['grocery', 'snacks', ]
