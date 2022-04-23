@@ -21,7 +21,8 @@ with header:
 with dataset:
     st.header('This is supermarket dataset') #Header
 
-    df_raw = get_data('D:/Heroku/stock_shun.csv') # reading data
+    # df_raw = get_data('D:/Heroku/stock_shun.csv') # reading data
+    df_raw = get_data('stock_shun.csv') # reading data
     df = df_raw[['Product', 'Qty', 'Unit', 'Category', 'MRP', 'Profit_Margin']] # choosing required column
     # df.head()
 
