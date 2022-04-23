@@ -19,7 +19,7 @@ with header:
     # st.write(ver)
 
 with dataset:
-    st.header('This is supermarket dataset') #Header
+    st.header('This is supermarket stock') #Header
 
     # df_raw = get_data('D:/Heroku/stock_shun.csv') # reading data
     df_raw = get_data('stock_shun.csv') # reading data
@@ -72,7 +72,8 @@ with dataset:
         """cap - maximum amount or cart value
         df - data frame of products, profit, cost
         opti_column - profit margin per product
-        cat_items - category of products go into bundle"""
+        cat_items - category of products go into bundle
+        it returns"""
 
         df = df[df['Category'].isin(cat_items)]
         profit_Margin = df[opti_column].values.tolist()
@@ -86,7 +87,7 @@ with dataset:
 with features:
     st.title("selct the criteria for bundle offer...")
     sel_cat, sel_cost = st.columns(2)
-    total_value = sel_cost.text_input('Enter the purchase value :')
+    total_value = sel_cost.text_input('Enter the purchase value, Eg, 200 or 450 etc.. :')
     # category_items = []
     selected_cat = st.multiselect('select the category of products', cat)
     # category_items.append(selected_cat)
@@ -103,6 +104,8 @@ with features:
     PI, PW, products_selected = main_method(total_value, df, opti_column , Cost_per_unit, Products, cat_items, main)
     # st.write(PI, PW, products_selected)
     st.write('The Products Under This Bundle Offer', products_selected)
+    df_cat = df[df['Category'].isin(cat_items)].reset_index(drop=True).loc[PI]
+    st.write(df_cat)
 
 # cat_items = ['grocery', 'snacks', ]
 # opti_column = 'Profit_Margin'
