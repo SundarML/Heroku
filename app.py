@@ -4,9 +4,9 @@ from ortools.algorithms import pywrapknapsack_solver
 import random
 import ortools
 
-header = st.beta_container()
-dataset = st.beta_container()
-features = st.beta_container()
+header = st.container()
+dataset = st.container()
+features = st.container()
 
 @st.cache
 def get_data(filename):
@@ -85,7 +85,7 @@ with dataset:
 
 with features:
     st.title("selct the criteria for bundle offer...")
-    sel_cat, sel_cost = st.beta_columns(2)
+    sel_cat, sel_cost = st.columns(2)
     total_value = sel_cost.text_input('Enter the purchase value :')
     # category_items = []
     selected_cat = st.multiselect('select the category of products', cat)
