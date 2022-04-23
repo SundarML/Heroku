@@ -1,0 +1,103 @@
+Product,Qty,Unit,Category,MRP,Profit_Margin
+cocunut oil,1,Ltr,grocery - oil,340,51
+gingelly oil,1,Ltr,grocery - oil,240,36
+Amanakku oil,0.5,Ltr,non edible,140,21
+Ghee,250,ML,grocery,220,33
+Ghee,0.5,Ltr,grocery,420,63
+Panchadeepa oil,1,Ltr,non edible,170,25.5
+Neem oil,100,Ml,non edible,30,4.5
+Iluppai oil,100,Ml,non edible,30,4.5
+Mustard oil,100,Ml,non edible,30,4.5
+Pungai oil,100,Ml,non edible,30,4.5
+Karuncheerakam oil,50,ML,grocery,150,22.5
+Olive oil,1,Ltr,grocery,430,64.5
+Olive oil,100,ML,grocery,110,16.5
+Badam oil,100,Ml,grocery,160,24
+Perungayam,10,GM,grocery,180,27
+Vellam,900,GM,grocery,900,135
+Munthiri 1,200,GM,grocery,170,25.5
+Munthiri 2,200,GM,grocery,160,24
+Badam,200,GM,grocery - sub,160,24
+Badan green,200,GM,grocery - sub,330,49.5
+Akroot valnut,250,GM,grocery - sub,250,37.5
+Athipalam,250,GM,grocery - sub,250,37.5
+Apricot fruit,200,GM,grocery - sub,170,25.5
+Yellow grapes,200,GM,grocery - sub,60,9
+Dates,250,GM,grocery - sub,80,12
+Black Dates,250,GM,grocery - sub,110,16.5
+Pista salt,250,GM,grocery - sub,270,40.5
+Kara Munthiri,100,GM,grocery - sub,80,12
+Milagu Munthiri,100,GM,grocery,80,12
+Idly podi,200,GM,grocery,50,7.5
+indu salt,1,kg,grocery,90,13.5
+Thribala juice,1,Ltr,Beverage,240,36
+Thribala powder,200,GM,Beverage,90,13.5
+Kulkanth,250,GM,grocery - sub,65,9.75
+Panankarkand,100,GM,grocery - sub,80,12
+Oothupathi sandal,100,GM,grocery - sub,60,9
+Thinai,0.5,kg,grocery - tamil,60,9
+Varaku,0.5,kg,grocery - tamil,60,9
+Saamai,0.5,kg,grocery - tamil,60,9
+Kuthirai vaali,0.5,kg,grocery - tamil,70,10.5
+Mappillai samba,0.5,kg,grocery - tamil,70,10.5
+Karuppu kavani,0.5,kg,grocery - tamil,70,10.5
+Kaikuthal,0.5,kg,grocery - tamil,55,8.25
+Sigappu rice,0.5,kg,grocery - tamil,35,5.25
+Honey,200,GM,grocery - tamil,110,16.5
+Honey,0.5,kg,grocery - sub,250,37.5
+Organic boiled rice,10,kg,grocery,700,105
+Organic non boiled rice,10,kg,grocery,720,108
+Boiled rice,1,kg,grocery,70,10.5
+Tamarind,0.5,kg,grocery,140,21
+Seeragam,100,GM,grocery,30,4.5
+Tea powder,250,GM,grocery,80,12
+Nattu sarkarai,0.5,kg,grocery,50,7.5
+Mooligai sarkarai,400,GM,grocery,70,10.5
+Ginger Garlic Pickle,100,GM,grocery - sub,40,6
+Pirandai Pickle,100,GM,grocery - sub,40,6
+Idlipodi mudakatran,100,GM,grocery - sub,55,8.25
+Idlipodi pirandai,100,GM,grocery - sub,55,8.25
+Idlipodi vallarai,100,GM,grocery - sub,55,8.25
+Malai Ragi powder,0.5,kg,grocery - sub,40,6
+Kambu Mavu,0.5,kg,grocery - sub,40,6
+Siruthaniyam Mavu,0.5,kg,grocery - sub,160,24
+Siruthaniyam ulunthankanchi,250,GM,grocery - sub,130,19.5
+Karuppati kadalai parppi,250,GM,grocery - sub,40,6
+Green tea,75,GM,grocery - sub,75,11.25
+Sukku kappi,100,GM,grocery - sub,30,4.5
+Vilvappalam sarpath,300,ML,grocery - sub,70,10.5
+Nannari sarpath,300,ML,grocery - sub,130,19.5
+Sembaruthi hair oil,300,ML,grocery - sub,160,24
+Sembaruthi shampoo,300,ML,grocery - sub,130,19.5
+Kuppaimani soap,75,GM,grocery - sub,40,6
+Ayurvedic tooth powder,40,GM,grocery - sub,35,5.25
+Karuvelam tooth powder,40,GM,grocery - sub,30,4.5
+Panankarupatti,0.5,kg,grocery - sub,150,22.5
+Rusk munthiri,250,GM,grocery - sub,70,10.5
+Biscuit,24,Numbers,snacks,50,7.5
+Honey nelli,0.6,kg,snacks,35,5.25
+Nuts nelli,50,GM,snacks,35,5.25
+Ginger honey dates,20,GM,snacks,25,3.75
+Nethiram chips,250,GM,snacks,100,15
+Nethiram sweets,250,GM,snacks,100,15
+Coffee Powder,50,GM,grocery - sub,155,23.25
+Milaku,100,GM,grocery,80,12
+Appalam,150,GM,grocery - sub,50,7.5
+Milaku appalam,100,GM,grocery - sub,35,5.25
+Seeraga appalam,100,GM,grocery - sub,30,4.5
+Sundakkai vathal,100,GM,grocery - sub,40,6
+Milakai vathal,100,GM,grocery - sub,40,6
+Manathakkali vathal,100,GM,grocery - sub,50,7.5
+Halva,250,GM,snacks,60,9
+Muskoth halva,250,GM,snacks,60,9
+Milk halva,100,GM,snacks,40,6
+Athirasam,8,Numbers,snacks,55,8.25
+Rippon Ellu,100,GM,snacks,40,6
+Rippon poondu,100,GM,grocery - sub,40,6
+Kadalai laddu,100,GM,snacks,40,6
+Rava laddu,100,GM,snacks,40,6
+Paasiparuppu laddu,100,GM,snacks,40,6
+Ulunthu laddu,100,GM,snacks,40,6
+Popcorn,100,GM,snacks,20,3
+Anthira paruppu powder,100,GM,grocery - sub,40,6
+Herbal napkin,10,Numbers,Hygiene,125,18.75
