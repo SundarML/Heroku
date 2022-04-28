@@ -23,7 +23,7 @@ with dataset:
 
     # df_raw = get_data('D:/Heroku/stock_shun.csv') # reading data
     df_raw = get_data('stock_shun.csv') # reading data
-    df = df_raw[['Product', 'Qty', 'Unit', 'Category', 'MRP', 'Profit_Margin']] # choosing required column
+    df = df_raw[['Product', 'Qty', 'Unit', 'Category', 'MRP', 'Profit_Margin']] # choosing required columns
     # df.head()
 
     st.write(df.sample(10)) # writing some sample dataset
